@@ -11,3 +11,4 @@ It will find individual stocks to buy from given ETFs based on history.
 - npm run start
 
 ## You will get email after successful run.
+<img width="1308" height="672" alt="Screenshot 2025-08-31 at 3 32 08 PM" src="https://github.com/user-attachments/assets/b62c1430-0426-4e52-9a48-e49262c88a4a" />
