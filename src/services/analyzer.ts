@@ -23,7 +23,7 @@ export async function runWeeklyAnalysis() {
     }
 
     if(filtered.length === 0) {
-      report += '🚫 Wait at the moment! This ETF stocks are too good or too bad to buy!\n';
+      report += '🚫 Wait at the moment! This ETF stocks are too good or too bad to buy!';
     } else {
       report += filtered.map(f => `✅ ${f.symbol} | 6M Change: ${f.sixMonthChange.toFixed(2)}% | 1Y Change: ${f.oneYearChange.toFixed(2)}% | 5Y CAGR: ${f.cagr5.toFixed(2)}% | 10Y CAGR: ${f.cagr10.toFixed(2)}%\nAI Analysis: ${f.aiOpinion}`).join('\n\n');
     }
