@@ -31,7 +31,7 @@ export async function runWeeklyAnalysis() {
     report += '\n';
   }
 
-  await sendEmail('priyank.briskia@gmail.com', 'Stock Picker', report);
+  await sendEmail('your_email@gmail.com', 'Stock Picker', report);
 
   // 1) If user messaged you in last 24h:
   // await sendWhatsAppText("Stock Picker");
